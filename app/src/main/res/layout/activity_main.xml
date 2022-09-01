@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Logo image -->
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Trend report ground-->
+    <LinearLayout
+        android:id="@+id/news_ground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/floating_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_logo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_back"
+            android:text="TrendReport"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textview_news1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_news"
+            android:text="newsHeadline1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textview_news2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_news"
+            android:text="newsHeadline2"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textview_news3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_news"
+            android:text="newsHeadline3"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText"/>
+
+    </LinearLayout>
+
+    <!--Community ground(notification)-->
+    <LinearLayout
+        android:id="@+id/comu_ground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/news_ground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_back"
+            android:text="Community"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ground_stroke"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/new_followers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="New Followers: 000"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/new_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="New Comments: 000"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--Diary ground-->
+    <LinearLayout
+        android:id="@+id/diary_ground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comu_ground">
+
+        <TextView
+            android:id="@+id/diary_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_back"
+            android:text="Diary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ground_stroke"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/diary_com1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Hello Good morning Hi Sup"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/diary_com2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Take my soul"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText"/>
+
+            <TextView
+                android:id="@+id/diary_com3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="The contract is now in effect"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Floating button -->
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floating_menu"
+        android:layout_width="@dimen/fab_size_normal"
+        android:layout_height="@dimen/fab_size_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingMyDiary"
+            android:layout_width="@dimen/fab_size_normal"
+            android:layout_height="@dimen/fab_size_normal" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingFriendlyCommunity"
+            android:layout_width="@dimen/fab_size_normal"
+            android:layout_height="@dimen/fab_size_normal"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingTrendReport"
+            android:layout_width="@dimen/fab_size_normal"
+            android:layout_height="@dimen/fab_size_normal" />
+
+        <!--테스트용 남는거-->
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingBtn4"
+            android:layout_width="@dimen/fab_size_normal"
+            android:layout_height="@dimen/fab_size_normal" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

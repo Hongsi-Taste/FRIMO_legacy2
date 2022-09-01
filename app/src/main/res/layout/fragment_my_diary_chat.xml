@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diary.myDiaryChat"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/chatRecycler"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="25dp"
+            android:id="@+id/chatEdtText"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="->"
+            android:id="@+id/chatSend"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/chatRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rec"/>
+<!--  test TextView  -->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:id="@+id/resView"-->
+<!--        android:text="result"/>-->
+</LinearLayout>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageview_interest"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        tools:src="@drawable/img_sample" />
+
+    <TextView
+        android:id="@+id/textview_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interest"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>

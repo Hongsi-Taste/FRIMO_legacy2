@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title Image -->
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="43dp"
+        android:src="@drawable/title"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_logo">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="390dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(필수) 위 약관의 내용을 이해하고 이에 동의합니다."
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(필수) 위 약관의 내용을 이해하고 이에 동의합니다."
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="540dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(선택) 마케팅 어쩌구 저쩌고 이렇고 저렇고."
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="588dp" />
+
+        <Button
+            android:id="@+id/button_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="655dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

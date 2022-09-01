@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gachon.frimo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FRIMO"
+        tools:targetApi="31">
+        <activity
+            android:name=".MapTest"
+            android:exported="false" />
+        <activity
+            android:name=".Loading"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".diary.MyDiary"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity android:name=".TermsOfUse" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".FindId" />
+        <activity android:name=".FindPw" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FriendlyCommunity" />
+        <!-- TODO: find place to include map api -->
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="bfs0j414bm" />
+
+        <activity android:name=".ContentDetail" />
+        <activity android:name=".ModifyProfile" />
+        <activity android:name=".SetInterest" />
+        <activity android:name=".AddContents" />
+        <activity android:name=".FriendCandidate" />
+        <activity android:name=".TrendReport" />
+    </application>
+
+</manifest>

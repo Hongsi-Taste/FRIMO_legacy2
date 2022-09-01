@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/activity_loading.xml" value="0.215625" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/activity_login_site.xml" value="0.2821557971014493" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/activity_main.xml" value="0.2821557971014493" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/activity_map_test.xml" value="0.1328125" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/activity_my_diary.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/chatitem.xml" value="0.3453125" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/fragment_my_diary_chat.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/fragment_my_diary_gallery.xml" value="0.3453125" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/fragment_my_diary_secret.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/friend_candidate_view.xml" value="0.284375" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/friendly_community.xml" value="0.284375" />
+        <entry key="..\:/Users/User/StudioProjects/FRIMO_p/app/src/main/res/layout/friendly_community_follow_view.xml" value="0.284375" />
+        <entry key="..\:/Users/kwonw/AndroidStudioProjects/FRIMO_p/app/src/main/res/layout/activity_main.xml" value="0.10674157303370786" />
+        <entry key="..\:/Users/kwonw/AndroidStudioProjects/FRIMO_p/app/src/main/res/layout/main_page.xml" value="0.204296875" />
+        <entry key="..\:/Users/kwonw/AndroidStudioProjects/FRIMO_p/app/src/main/res/layout/toolbar_custom.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ground_stroke.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_heart.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/main_news.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_black_oval.xml" value="0.141" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2061798095703126" />
+        <entry key="app/src/main/res/layout/activity_login_site.xml" value="0.27252960205078125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/add_contents.xml" value="0.22139180501302072" />
+        <entry key="app/src/main/res/layout/add_contents_view.xml" value="0.3127960205078126" />
+        <entry key="app/src/main/res/layout/content_detail.xml" value="0.19504643962848298" />
+        <entry key="app/src/main/res/layout/content_detail_comment.xml" value="0.2647058823529412" />
+        <entry key="app/src/main/res/layout/content_detail_image.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/find_id.xml" value="0.14637603759765624" />
+        <entry key="app/src/main/res/layout/find_pw.xml" value="0.1976538616677989" />
+        <entry key="app/src/main/res/layout/friend_candidate.xml" value="0.15677083333333333" />
+        <entry key="app/src/main/res/layout/friend_candidate_view.xml" value="0.36440073649088545" />
+        <entry key="app/src/main/res/layout/friendly_community.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/friendly_community_content_view.xml" value="0.26835530598958335" />
+        <entry key="app/src/main/res/layout/friendly_community_follow_view.xml" value="0.21212121212121213" />
+        <entry key="app/src/main/res/layout/friendly_community_interest_view.xml" value="0.29882903168166897" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/modify_profile.xml" value="0.106781005859375" />
+        <entry key="app/src/main/res/layout/set_interest.xml" value="0.2252360026041667" />
+        <entry key="app/src/main/res/layout/set_interest_view.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/sign_up.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/terms_of_use.xml" value="0.16088409423828126" />
+        <entry key="app/src/main/res/layout/toolbar_custom.xml" value="0.3325876871744792" />
+        <entry key="app/src/main/res/layout/trend_report.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/trend_report_view.xml" value="0.34178314208984384" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
